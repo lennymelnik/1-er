@@ -1,6 +1,6 @@
 ---
 title : "A way to revive my PS/2 Model 90?"
-layout : post
+layout : vintage
 categories : vintage
 ---
 <br/>
