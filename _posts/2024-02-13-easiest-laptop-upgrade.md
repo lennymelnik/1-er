@@ -27,4 +27,6 @@ So it arrived, and within 10 minutes I had upgraded the RAM, Screen, and Storage
 
 I stowed away the old screen just incase.
 
-Thermal paste is arriving tommorow so I plan on upgrading the processor then!
+The next day my thermal paste arrived and the processor upgrade could not have been easier. The CPU is locked in with a star screw but I just used the end of some scissors. Just need to rotate that screw <180 degrees and you are good to go (After removing the heatsink with 4 regular captive screws.)
+
+Obviously I am not expecting to be able to game on this computer, but now it can actually work really well for my daily usecases. But this time I'll make sure to hold onto my Mac.
