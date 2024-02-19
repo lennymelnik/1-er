@@ -41,8 +41,8 @@ The whole migration process per web service pretty much looked like this:
 7. Start new services
 8. Point domains to new server
 9. Setup new domain in /etc/nginx/sites-availible
-10. Setup link to /etc/nginx/sites-enabled
-11. Use ```bash sudo certbot --nginx``` to get new SSL Certs
+10. Setup link with ```sudo ln -ls /etc/nginx/sites-availible/domain.url /etc/nginx/sites-enabled```
+11. Use ``` sudo certbot --nginx``` to get new SSL Certs
 12. And voiala!
 
 I have not finished migrating everything yet, but should be done by the end of the week.
