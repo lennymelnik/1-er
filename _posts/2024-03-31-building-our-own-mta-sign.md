@@ -71,6 +71,6 @@ The easy solution was to just use the method to draw pixels. (We also played aro
 
 But the sizing was not quite there
 q
-![V2](/assets/MTA/v4.gif)
+![V2](/assets/MTA/v2.gif)
 
 Honestly at this point we had gotten what we wanted. 
