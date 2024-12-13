@@ -34,3 +34,43 @@ Honestly I didn't know much about Bluetooth, and I have been learning more. But 
 I already got the arduino to connect to my wifi and detect BLE devices, next I want to setup the postgres database I will be using and start collecting data!
 
 
+Next step was to setup a development environment on my Mini-PC with Ubuntu server as the OS.
+
+My plan is to setup a postgres docker container, then use Bun.sh to run a simple webserver that will accept data from the arduino and push to to the DB.
+
+
+![VM](/assets/homelab/setting_up_vm.png)
+
+
+# The Arduinio code
+
+When I build thing sI like to do it step by step, brick by brick.
+
+So first I wrote the arduino code to detect nearby devices/peripherals. Once that was working I moved on to adding the ability to connect to wifi.
+
+Since we were almost done, I moved onto setting up the app server.
+
+I used postgres in a docker and set it up with a super simple schema, only collecting M.A.C address, local_name, and timestamp.
+
+Recently I have fallen in love with using Bun for quick scripting so used it to spin up a simple web server that would accept the data as query params 
+
+such as https://MYSERVER/?mac=THEMAC&local_name=LOCALNAME
+
+
+# Data analysis
+
+
+Now lets get to the fun part of the project. Playing around with all the data.
+
+This usually is just an expirmentation process, until you develop a hypothesis or question and then develop a query/analysis to answer it.
+
+Lets start by seeing which days of the week have the most traffc
+
+# CREATE AND SHOW GRAPH VISUAL
+
+Now lets see based on hour, which hours had more or less traffic.
+
+
+# SHOW VISUAL DISCUS THE 
+
+When breaking this down by specific days of the week, are there any days that experience anomolies or go outside of
